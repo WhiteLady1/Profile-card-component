@@ -1,0 +1,60 @@
+body{
+  font-family: 'Kumbh Sans', sans-serif;
+  background-color: hsl(185, 75%, 39%);
+}
+.attribution{
+  object-position: bottom;
+}
+.site{
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.patternTop, .patternBottom{
+  position: absolute;
+  z-index: -1;
+}
+
+.patternTop{
+ position: absolute;
+ left: -750px;
+ top: -600px;
+}
+.patternBottom{
+ position: absolute;
+ right: -750px;
+ bottom: -600px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  height: 342px;
+  width: 325px;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+}
+
+.pattern{
+  width: 100%;
+}
+
+.profileFoto{
+ position: absolute;
+ top: 78px;
+ border-radius: 50%;
+ border: 4px solid white;
+}
+
+.about{
+  display: flex;
+  margin-top: 70px;
+  display: flex;
+}
