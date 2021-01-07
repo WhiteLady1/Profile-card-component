@@ -102,3 +102,25 @@ body{
   font-size: 10px;
   letter-spacing: 2px;
 }
+
+@media only screen and (min-width: 700px) {
+  .patternTop{
+    left: -400px;
+    top: -500px;
+   }
+   .patternBottom{
+    right: -300px;
+    bottom: -600px;
+   }
+}
+
+@media only screen and (min-width: 1440px) {
+  .patternTop{
+    left: -250px;
+    top: -500px;
+   }
+   .patternBottom{
+    right: -150px;
+    bottom: -600px;
+   }
+}
